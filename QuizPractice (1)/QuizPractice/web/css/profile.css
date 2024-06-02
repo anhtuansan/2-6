@@ -1,0 +1,288 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 29, 2024, 8:08:51 AM
+    Author     : Admin
+*/
+
+.user-form-section {
+        padding: 20px 0;
+    }
+    .user-form .form-group {
+        margin-bottom: 15px;
+    }
+    .user-form .form-group label {
+        font-weight: bold;
+    }
+    .user-form .form-control {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .user-form .btn {
+        margin-right: 10px;
+    }
+    .image-container {
+        text-align: center;
+        padding: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+    .image-container img:hover {
+        transform: scale(1.05);
+    }
+    
+    .buttons-inline {
+    display: flex;
+    justify-content: start;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+
+
+/* pop up */
+
+/* .popup1 {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.popup-content1 {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#closeBtn:hover,
+#closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+form input[type="submit"]:focus,
+form input[type="reset"]:focus {
+    outline: none;
+}
+
+form input[type="reset"] {
+    background-color: #f44336;
+}
+
+
+form input[type="email"] {
+    background-color: #ccc;  Brown background color 
+}*/
+
+
+.popup1 {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.popup-content1 {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#closeBtn:hover,
+#closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+
+.left-side {
+    width: 60%;
+    float: left;
+}
+
+.right-side {
+    width: 40%;
+    float: right;
+}
+
+.avatar-container {
+    margin-bottom: 20px;
+}
+
+.avatar-image {
+    width: 40%; /* Adjust size as needed */
+    height: auto; /* Adjust size as needed */
+    /*border-radius: 50%;  Make it round */
+    margin-bottom: 10px;
+}
+
+.upload-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background-color: #45a049;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+form input[type="submit"]:focus,
+form input[type="reset"]:focus {
+    outline: none;
+}
+
+form input[type="reset"] {
+    background-color: #f44336;
+}
+
+
+form input[type="email"] {
+    background-color: #ccc; 
+}
